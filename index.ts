@@ -58,6 +58,6 @@ app.post("/clear", (req, res) => {
   res.send("Messages cleared");
 });
 
-http.listen(5000, "0.0.0.0", () => {
-  console.log("Server listening on port 5000");
+http.listen(6001, "0.0.0.0", () => {
+  console.log("Server listening on port 6001");
 });
